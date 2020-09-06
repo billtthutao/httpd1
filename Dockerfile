@@ -1,4 +1,4 @@
-FROM docker.io/httpd:2.4
+FROM registry.cn-hangzhou.aliyuncs.com/httpd:2.4
 
 EXPOSE 8080
 LABEL io.openshift.expose-services="8080:http"
