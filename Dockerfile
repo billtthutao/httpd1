@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/axf-school/apache-httpd
+FROM kznuuhb4.mirror.aliyuncs.com/httpd
 
 EXPOSE 8080
 LABEL io.openshift.expose-services="8080:http"
