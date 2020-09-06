@@ -1,4 +1,4 @@
-FROM kznuuhb4.mirror.aliyuncs.com/httpd
+FROM registry.cn-hangzhou.aliyuncs.com/httpd_repo/httpd
 
 EXPOSE 8080
 LABEL io.openshift.expose-services="8080:http"
