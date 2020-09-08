@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/axf-school/apache-httpd:1.0
+FROM default-route-openshift-image-registry.apps-crc.testing/common1/httpd:v1.0
 
 EXPOSE 8080
 LABEL io.openshift.expose-services="8080:http"
